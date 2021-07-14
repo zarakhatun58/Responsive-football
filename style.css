@@ -1,9 +1,17 @@
 
+
+/*............. fonts............ */
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+</style>
+
+
+
  /* ..................full body ...............*/
 .body-section{ height: 3750px;
                 width: 1440px;
                 background-color: #FFFFFF;
-                ;
+                
                 font-family: Poppins;
 
 }
@@ -85,7 +93,7 @@
 
 }
 
-.heading{font-family: Poppins;
+.heading{font-family: Poppins ;
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
@@ -103,6 +111,11 @@
                  font-weight: 700;
                  padding-top: 5px;
                 
+
+}
+
+#live-button{ background-color: #E02C6D; 
+                color: white;
 
 }
 
@@ -130,15 +143,12 @@
   /*................... main body section.................. */
 .main-division1{ height: 500px;
                 width: 1050px;
-                
-                display: flex;
-                flex-direction: row;
-                align-items: flex-start;
                 margin-right: 210px;
                 margin-left: 180px;
                margin-top: 70px;
-               
-
+               display: grid;
+              grid-template-columns:repeat(3, 1fr);
+              font-family: poppins sans-serif;
 }
  /*........................ neimar ...................*/
 
@@ -164,8 +174,10 @@
 }
 
 h3{ font-size: 22px;
- font-family: poppins;
- margin-left: 10px;
+  font-family: poppins sans-serif;
+  margin-left: 10px;
+  font-weight: 700;
+
  
 
 }
@@ -532,5 +544,66 @@ margin-right: 10px;
 
 }
 
+/* ......................last -section.....................  */
+
+.article-section{   height: 400px;
+                     width: 370px;  
+                    
+                  background: #FFFFFF;
+                  border: 1px solid black;
+                   margin-right: 10px;
+                  margin-left: 10px;
+                  margin-top: 15px;
+
+}
+
+.article-heading{ font-size: 40px;
+
+}
+
+.article-p{
+
+}
+
+.btn{ background-color:  #E02C6D;
+        height: 50px;
+         width:150px;
+         padding: 5px;
+         margin-left: 10px;
+         color: white;
+
+}
+.watch-section{  text-decoration: none;
+                 font-weight: bold;
+                 font-size: 20px;
+                 color: white;
 
 
+}
+
+.image-section{  height: 427px;
+                  width: 567px ;
+                  margin-left:182px;
+                  
+
+
+}
+
+.image-last{ height: 400px;
+              width: 550px;
+              float: right;
+              display: inline;
+              margin-right:105px ;
+              margin-top: 18px;
+              
+              
+
+
+}
+
+
+
+@media screen and (min-width:480px) {
+
+
+}
