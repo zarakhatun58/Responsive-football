@@ -651,8 +651,42 @@ margin-right: 10px;
       }        
 
 
+  /* .............media Queries ...............*/
 
-@media screen and (min-width:480px) {
+     /*.............. mobile devices.............. */
 
+
+@media only screen and (max-width:688px) {
+
+  .header-section,  #banner-image{  width: 360px;
+                                      height: 695px;
+                     background-color: yellow;
+                    grid-template-columns: repeat(1, 1fr);
+                            flex-direction: column;
+
+  }
+
+  .main-division1{  grid-template-columns: repeat(1, 1fr);
+                 flex-direction: column;
+
+  }
 
 }
+
+
+
+ /* ..............Tablet Device............. */
+  @media only screen and(min-width:688px) and ( max-width:992px) {
+
+.header-section, { background-color: green ;
+                  grid-template-columns: repeat(2, 1fr);
+
+}
+
+.main-division1, .footer-section, .article-section{  grid-template-columns: repeat(2, 1fr);
+                                  flex-direction: column;
+                                 align-items: center;
+                                  
+}
+
+  }
