@@ -550,7 +550,7 @@ margin-right: 10px;
                      width: 370px;  
                     
                   background: #FFFFFF;
-                  border: 1px solid black;
+                  padding-left: 10px;
                    margin-right: 10px;
                   margin-left: 10px;
                   margin-top: 15px;
@@ -561,7 +561,10 @@ margin-right: 10px;
 
 }
 
-.article-p{
+.article-p{ font-size: 16px;
+            font-family: sans-serif;
+
+
 
 }
 
@@ -596,10 +599,56 @@ margin-right: 10px;
               margin-right:105px ;
               margin-top: 18px;
               
+}
+
+ /* ......................Footer section.................... */
+ .footer-section{ height: 200px;
+                  width: 483px;
+                 
+                  margin-left: 475px;
+
+ }
+
+ .logo{ height: 110px;
+        width: 475px;
+       position: relative;
+       
+ }
+
+ .social-icon{ height: 50px;
+              width: 270px;
+              margin-left: 110px;
+              float: left;
+              margin-top: 10px;
               
 
+ }
 
-}
+
+ 
+
+ .social-ul{ list-style-type: none;
+            display: inline;
+            
+              
+
+ }
+ .social-list{ display: inline;
+              height: 80px;
+              width: 80px;
+              margin: 10px;
+             
+              background-color: white;
+            
+            }
+
+  .copyright-section{ height: 32px;
+                      width: 250px;
+                      
+                      margin-top: 50px;
+                      margin-left: 140px;
+
+      }        
 
 
 
