@@ -1,0 +1,536 @@
+
+ /* ..................full body ...............*/
+.body-section{ height: 3750px;
+                width: 1440px;
+                background-color: #FFFFFF;
+                ;
+                font-family: Poppins;
+
+}
+
+ /* ..................Header section.................. */
+.header-section{ height: 500px;
+                  width: 1440px;  
+                  background-color: #2D25A0;
+
+}
+
+
+.nav-division{ height: 60px;
+                width: 1160px;
+                 margin-left: 156px;
+                 right: 124px;
+                 top: 42px;
+                 color: #FFFFFF;
+
+
+
+}
+
+.section1{ height: 24px;
+            width: 587px;
+            margin-top: 50px;
+            align-items: flex-start;
+            display: flex;
+            flex-direction: row;
+}
+
+.ul-list{list-style-type: none;
+            
+
+}
+.list{ display:inline;
+         margin: 7px;
+         font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+    
+    
+
+}
+.section2{ height: 44px;
+        width: 124px;
+        background-color: #E02C6D;
+        margin-left: 1000px;
+        
+        
+}
+
+#icon{ display: flex;
+         flex-direction: row;
+         align-items: center;
+         padding: 10px 24px;
+         height: 20px;
+    
+
+}
+
+.section3{ height: 419px;
+            width: 1160px;
+            margin-right: 140px;
+            margin-left: 140px;
+            
+            top: 50px;
+            display: flex;
+            flex-direction: row;
+
+}
+.division1{ height:300px;
+            width: 485px;
+            
+
+            color: white;
+
+}
+
+.heading{font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+
+}
+.watch-section{ height: 44px;
+                width: 168px;
+                background-color:#E02C6D;
+                font-size: 20px;
+                font-style: normal;
+                 font-weight: 700;
+                 padding-top: 5px;
+                
+
+}
+
+.divsion2{ height: 300px;
+            width: 485px;
+            background-color: chartreuse;
+
+}
+
+#banner-image{ height: 350px;
+                width: 440px;
+                padding-left: 100px;
+                position: relative;
+                padding-top: 20px;
+                overflow: hidden;
+                
+
+}
+
+#banner-image:hover {
+    transform: scale(.5) rotate(1deg);
+    transition: transform 1s ease-in; }
+    
+ /* ...................header section end ................*/
+  /*................... main body section.................. */
+.main-division1{ height: 500px;
+                width: 1050px;
+                
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                margin-right: 210px;
+                margin-left: 180px;
+               margin-top: 70px;
+               
+
+}
+ /*........................ neimar ...................*/
+
+.neimar-section{ height: 474px;
+                 width: 315px;
+                 flex: none;
+                 background: #FFFFFF;
+                box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.116);
+                   margin-right: 10px;
+                   margin-left: 15px;
+                   margin-top: 15px;
+                   
+
+
+}
+.neimar-image{ height: 250px;
+                width: 290px;
+                margin-left: 10px;
+                top: 0px;
+                margin-top: 10px;
+
+
+}
+
+h3{ font-size: 22px;
+ font-family: poppins;
+ margin-left: 10px;
+ 
+
+}
+.neimar-p{ font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+ /* .................messi ................*/
+
+.messi-section{ height: 474px;
+                  width: 315px;
+                    
+                     flex: none;
+                     background: #FFFFFF;
+                    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+                    margin-right: 10px;
+                    margin-left: 15px;
+                    margin-top: 15px;
+
+}
+.messi-image{ height: 250px;
+             width: 290px;
+             margin-left: 5px;
+            
+             margin-top: 10px;
+            
+    
+}
+
+.messi-p{   font-family: Poppins;
+            font-size: 16px;
+             font-style: normal;
+             font-weight: 500;
+             margin-left: 10px;
+             margin-right: 10px;
+
+}
+
+
+/*................. ronaldo.................. */
+
+.ronaldo-section{ height: 474px;
+                     width: 315px;
+                    
+                   flex: none;
+                   background: #FFFFFF;
+                     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+                     margin-right: 10px;
+                   margin-left: 15px;
+                   margin-top: 15px;
+
+
+}
+
+.ronaldo-image{  height: 250px;
+                 width: 290px;
+                     margin-left: 5px;
+                     
+                     margin-top: 10px;
+
+}
+
+.ronaldo-p{ font-family: Poppins;
+             font-size: 16px;
+                font-style: normal;
+                 font-weight: 500;
+                 margin-left: 10px;
+                margin-right: 10px;
+
+
+}
+
+/*.............. Paulo Dybala ..................*/
+
+
+.paulo-section{ height: 474px;
+                 width: 315px;
+    
+                 flex: none;
+                 background: #FFFFFF;
+                     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.116);
+                      margin-right: 10px;
+                     margin-left: 15px;
+                     margin-top: 15px;
+
+}
+
+.paulo-image{ height: 250px;
+                width: 290px;
+                 margin-left: 5px;
+        
+                margin-top: 10px;
+
+}
+
+.paulo-p{ font-family: Poppins;
+                font-size: 16px;
+                   font-style: normal;
+                font-weight: 500;
+                 margin-left: 10px;
+                 margin-right: 10px;
+
+
+}     
+
+/*................... Mesut Ozil.................  */
+
+.ozil-section{ height: 474px;
+    width: 315px;
+      
+       flex: none;
+       background: #FFFFFF;
+      box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+      margin-right: 10px;
+      margin-left: 15px;
+      margin-top: 15px;
+
+}
+.ozil-image{ height: 250px;
+            width: 290px;
+            margin-left: 5px;
+
+            margin-top: 10px;
+
+
+}
+
+.ozil-p{   font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500; 
+            margin-left: 10px;
+            margin-right: 10px;
+
+}
+
+/*................ Mauro Icardi .............. */
+.mauro-section{ height: 474px;
+             width: 315px;
+   
+            flex: none;
+            background: #FFFFFF;
+            box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+            margin-right: 10px;
+             margin-left: 15px;
+            margin-top: 15px;
+
+
+}
+
+.mauro-image{  height: 250px;
+                width: 290px;
+                  margin-left: 5px;
+    
+                 margin-top: 10px;
+
+}
+
+.mauro-p{ font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            margin-left: 10px;
+            margin-right: 10px;
+
+}
+
+/*.......................... Di Maria ....................*/
+
+.maria-section{ height: 474px;
+                  width: 315px;
+    
+                  flex: none;
+                background: #FFFFFF;
+            box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.116);
+              margin-right: 10px;
+             margin-left: 15px;
+            margin-top: 15px;
+
+
+}
+.maria-image{ height: 250px;
+            width: 290px;
+            margin-left: 10px;
+             top: 0px;
+         margin-top: 10px;
+
+}
+
+.maria-h3{ font-size: 500;
+font-family: poppins;
+
+}
+.maria-p{ font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+margin-left: 10px;
+margin-right: 10px;
+
+
+}
+
+/*.............. Kylian Mbappé.......................... */
+
+.kylian-section{ height: 474px;
+    width: 315px;
+      
+       flex: none;
+       background: #FFFFFF;
+      box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+      margin-right: 10px;
+      margin-left: 15px;
+      margin-top: 15px;
+
+}
+.kylian-image{ height: 250px;
+width: 290px;
+margin-left: 5px;
+
+margin-top: 10px;
+
+
+}
+
+.kylian-p{   font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+margin-left: 10px;
+margin-right: 10px;
+
+}
+
+/*................ Mohamed Salah................ */
+.mohamed-section{ height: 474px;
+    width: 315px;
+   
+  flex: none;
+  background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin-right: 10px;
+  margin-left: 15px;
+  margin-top: 15px;
+
+
+}
+
+.mohamed-image{  height: 250px;
+width: 290px;
+    margin-left: 5px;
+    
+    margin-top: 10px;
+
+}
+
+.mohamed-p{ font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+margin-left: 10px;
+margin-right: 10px;
+
+
+}
+
+/* .................Harry Kane.............. */
+.harry-section{ height: 474px;
+    width: 315px;
+    
+    flex: none;
+    background: #FFFFFF;
+   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.116);
+      margin-right: 10px;
+      margin-left: 15px;
+      margin-top: 15px;
+
+
+}
+.harry-image{ height: 250px;
+             width: 290px;
+             margin-left: 10px;
+             top: 0px;
+             margin-top: 10px;
+
+}
+
+
+
+
+.harry-p{ font-family: Poppins;
+            font-size: 16pxpx;
+            font-style: normal;
+            font-weight: 500;
+            margin-left: 10px;
+            margin-right: 10px;
+
+
+}
+
+/*............... Kevin De Bruyne.................. */
+.kevin-section{ height: 474px;
+                width: 315px;
+      
+       flex: none;
+       background: #FFFFFF;
+      box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+      margin-right: 10px;
+      margin-left: 15px;
+      margin-top: 15px;
+
+}
+.kevin-image{ height: 250px;
+                width: 290px;
+            margin-left: 5px;
+
+            margin-top: 10px;
+
+
+}
+
+.kevin-p{   font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            margin-left: 10px;
+            margin-right: 10px;
+
+}
+
+/* ................Philippe Coutinho............... */
+.philippe-section{ height: 474px;
+                    width: 315px;
+   
+                flex: none;
+                background: #FFFFFF;
+                 box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+                margin-right: 10px;
+                margin-left: 15px;
+                 margin-top: 15px;
+
+
+}
+
+.philippe-image{  height: 250px;
+                width: 290px;
+                 margin-left: 5px;
+    
+                 margin-top: 10px;
+
+}
+
+.philippe-p{ font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            margin-left: 10px;
+            margin-right: 10px;
+
+
+}
+
+
+
